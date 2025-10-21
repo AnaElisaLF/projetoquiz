@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(246, 227, 255);
+    padding: 80px;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.titulo{
+    margin-top: 30px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.opcoes {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;  /* remove o sublinhado */
+  color: inherit;         /* herda a cor do texto do elemento pai */
+}
+
+.img_posters{
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    object-fit: cover;
+}
+.conteudo-caramelo {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/* Imagem do pôster */
+.imgsite {
+ margin-top: 30px;
+ margin-right: 50px;
+  width: 310px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Texto */
+.texto-descricao {
+  max-width: 600px;
+  line-height: 2;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+/* Botão centralizado */
+.botao-centralizado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+   
+.btn-quiz {
+  display: inline-block;
+  background-color: #9f59d1;     
+  color: #fff;                   
+  padding: 14px 40px;            
+  border: none;
+  border-radius: 25px;          
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;         
+  text-align: center;
+  transition: all 0.3s ease;   
+}
+
+.btn-quiz:hover {
+  background-color: #843bb5;    
+  transform: scale(1.05);       
+}
+
